@@ -1,4 +1,5 @@
-    $clientes = array();
+<?php
+	$clientes = array();
 
 	$pdoConn = new PDO('');
 	$pdoConn->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
